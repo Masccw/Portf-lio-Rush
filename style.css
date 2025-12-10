@@ -4,7 +4,14 @@
     margin: 0px;
 }
 
-<<<<<<< HEAD
+/* Paleta de cores */
+:root{
+    --CorPrincipal: #6A0DAD; 
+    --CorSecundaria: #252323;
+    --CorSombra: #3802318f;
+}
+
+
 /*HERO */
 .hero {
     height: 100vh;
@@ -137,12 +144,4 @@
         padding: 12px 24px;
     }
 }
-=======
-/* Paleta de cores */
-:root{
-    --CorPrincipal: #6A0DAD; 
-    --CorSecundaria: #252323;
-    --CorSombra: #3802318f;
-}
 
->>>>>>> 949d9767c33cfb75f48bc4dc521ab3b856a29dd8
