@@ -3,3 +3,11 @@
     padding: 0px;
     margin: 0px;
 }
+
+/* Paleta de cores */
+:root{
+    --CorPrincipal: #6A0DAD; 
+    --CorSecundaria: #252323;
+    --CorSombra: #3802318f;
+}
+
