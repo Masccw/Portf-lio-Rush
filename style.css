@@ -1,9 +1,47 @@
+/* Zerando Css */
 *{
     box-sizing: border-box;
     padding: 0px;
     margin: 0px;
 }
 
+/* Colorindo o background*/
+body{
+    min-height: 100vh;
+    background: linear-gradient(to top, rgba(128,0,255,0.7) 0%, #000 20%);
+}
+
+/* Modelando o padrão dos cards*/
+.cardpadrao{
+    background-color: #252323;
+    color: #6A0DAD;
+    width: 400px;
+    height: 300px;
+    box-shadow: #3802318f;
+    user-select: none;
+    transition: box-shadow 0.3s, transform 0.3s ease;
+    border: 1px solid transparent;
+}
+
+/* Modelando o padrão dos titulos dos cards*/
+.texttituloscard{
+    color: #6A0DAD;
+    border: 1px solid #800080;
+}
+
+/* Animação do card quando passa o mouse em cima */
+.cardpadrao:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px rgba(128, 0, 128, 0.8), 0 0 40px rgba(128, 0, 128, 0.6);
+    border-color: #800080;
+}
+
+/* padronização forçada das imagens nos cards */
+.imgtamanho{
+    object-fit: cover;
+    height: 50px;
+    width: 150%;
+}
 /* Paleta de cores */
 :root{
     --CorPrincipal: #6A0DAD; 
