@@ -61,7 +61,7 @@ body{
 
 /*HERO */
 .hero {
-    height: 100vh;
+    height: 50vh;
     background: var(--Preto);
     align-items: center;
     justify-content: center;
@@ -74,8 +74,9 @@ body{
 
 /*Título RUSH*/
 .hero-logo {
+    object-fit: cover;
     width: 550px;
-    height: 400px;
+    height: 200px;
     max-width:99%;
     filter: drop-shadow(0 0 14px var(--CorPrincipal))
             drop-shadow(0 0 65px var(--CorSombra));
@@ -89,6 +90,7 @@ body{
     letter-spacing: 1px;
 
     background: linear-gradient(90deg, var(--CorRosa), var(--CorRosaForte));
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 
