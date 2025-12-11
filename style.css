@@ -13,11 +13,11 @@ body{
 
 /* Modelando o padrão dos cards*/
 .cardpadrao{
-    background-color: #252323;
-    color: #6A0DAD;
+    background-color: var(--CorSecundaria);
+    color: var(--CorPrincipal);
     width: 400px;
     height: 300px;
-    box-shadow: #3802318f;
+    box-shadow: var(--CorSombra);
     user-select: none;
     transition: box-shadow 0.3s, transform 0.3s ease;
     border: 1px solid transparent;
@@ -31,7 +31,7 @@ body{
 /* Modelando o padrão dos titulos dos cards*/
 .texttituloscard{
     color: #6A0DAD;
-    border: 1px solid #800080;
+    border: 1px solid var(--CorRosaEscuro);
     user-select: none;
 }
 
@@ -39,7 +39,7 @@ body{
 .cardpadrao:hover{
     transform: translateY(-10px);
     box-shadow: 0 0 20px rgba(128, 0, 128, 0.8), 0 0 40px rgba(128, 0, 128, 0.6);
-    border-color: #800080;
+    border-color: var(--CorRosaEscuro);
 }
 
 /* padronização forçada das imagens nos cards */
@@ -57,7 +57,8 @@ body{
     --CorRosa: #e0baff;
     --CorRosaForte: #b468ff;
     --CorRoxoEscuro: #6A0DAD55;
-    --CorRosaaChoque: #b832f5;
+    --CorRosaChoque: #b832f5;
+    --CorRosaEscuro: #800080;
     
     --CorBox-Shadow: #b832f5aa;
     --CorBox-ShadowSecundaria: #6A0DADaa;
@@ -117,7 +118,7 @@ body{
     border-radius: 14px;
     border: none;
 
-    background: linear-gradient(90deg, var(--CorPrincipal), var(--CorRosaaChoque));
+    background: linear-gradient(90deg, var(--CorPrincipal), var(--CorRosaChoque));
     color: #fff;
 
     box-shadow:
@@ -128,10 +129,10 @@ body{
 }
 
 .hero-btn:hover {
-    background: linear-gradient(90deg, var(--CorRosaaChoque), var(--CorPrincipal));
+    background: linear-gradient(90deg, var(--CorRosaChoque), var(--CorPrincipal));
     transform: translateY(-4px) scale(1.02);
     box-shadow:
-        0 0 10px var(--CorRosaaChoque),
+        0 0 10px var(--CorRosaChoque),
         0 0 20px var(--CorPrincipal);
 }
 
